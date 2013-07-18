@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 192.168.2.100 (be patient)
+
+
+Server Software:        Jetty(8.y.z-SNAPSHOT)
+Server Hostname:        192.168.2.100
+Server Port:            8080
+
+Document Path:          /
+Document Length:        27 bytes
+
+Concurrency Level:      5
+Time taken for tests:   73.022 seconds
+Complete requests:      10000
+Failed requests:        0
+Write errors:           0
+Total transferred:      1370000 bytes
+HTML transferred:       270000 bytes
+Requests per second:    136.94 [#/sec] (mean)
+Time per request:       36.511 [ms] (mean)
+Time per request:       7.302 [ms] (mean, across all concurrent requests)
+Transfer rate:          18.32 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        1    1   0.1      1       7
+Processing:     6   36  18.0     30     169
+Waiting:        6   35  17.2     30     164
+Total:          6   36  18.0     31     170
+
+Percentage of the requests served within a certain time (ms)
+  50%     31
+  66%     38
+  75%     45
+  80%     50
+  90%     61
+  95%     72
+  98%     86
+  99%     96
+ 100%    170 (longest request)

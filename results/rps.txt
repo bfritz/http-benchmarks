@@ -1,0 +1,6 @@
+jetty1.txt:Requests per second:    170.58 [#/sec] (mean)
+jetty2.txt:Requests per second:    222.49 [#/sec] (mean)
+jetty3.txt:Requests per second:    223.10 [#/sec] (mean)
+scalatra1.txt:Requests per second:    80.93 [#/sec] (mean)
+scalatra2.txt:Requests per second:    134.95 [#/sec] (mean)
+scalatra3.txt:Requests per second:    136.94 [#/sec] (mean)
