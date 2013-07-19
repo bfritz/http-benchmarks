@@ -5,7 +5,7 @@ Licensed to The Apache Software Foundation, http://www.apache.org/
 Benchmarking 192.168.2.100 (be patient)
 
 
-Server Software:        Jetty(8.y.z-SNAPSHOT)
+Server Software:        
 Server Hostname:        192.168.2.100
 Server Port:            8080
 
@@ -13,31 +13,31 @@ Document Path:          /
 Document Length:        24 bytes
 
 Concurrency Level:      5
-Time taken for tests:   44.802 seconds
+Time taken for tests:   38.033 seconds
 Complete requests:      10000
 Failed requests:        0
 Write errors:           0
-Total transferred:      1340000 bytes
+Total transferred:      890000 bytes
 HTML transferred:       240000 bytes
-Requests per second:    223.20 [#/sec] (mean)
-Time per request:       22.401 [ms] (mean)
-Time per request:       4.480 [ms] (mean, across all concurrent requests)
-Transfer rate:          29.21 [Kbytes/sec] received
+Requests per second:    262.93 [#/sec] (mean)
+Time per request:       19.017 [ms] (mean)
+Time per request:       3.803 [ms] (mean, across all concurrent requests)
+Transfer rate:          22.85 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    1   0.2      1      11
-Processing:     4   22   3.7     21      68
-Waiting:        4   22   3.7     21      68
-Total:          5   22   3.7     22      69
+Connect:        1    1   0.3      1       7
+Processing:     3   18   7.0     19      60
+Waiting:        3   13   5.3     12      52
+Total:          4   19   7.0     19      61
 
 Percentage of the requests served within a certain time (ms)
-  50%     22
+  50%     19
   66%     22
   75%     23
-  80%     23
-  90%     23
-  95%     24
-  98%     33
-  99%     39
- 100%     69 (longest request)
+  80%     24
+  90%     28
+  95%     31
+  98%     34
+  99%     37
+ 100%     61 (longest request)
