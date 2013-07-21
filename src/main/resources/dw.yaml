@@ -1,0 +1,9 @@
+logging:
+  level: INFO
+
+http:
+  requestLog:
+    console:
+      enabled: false
+    file:
+      enabled: false

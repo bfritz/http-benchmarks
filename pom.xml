@@ -13,6 +13,7 @@
     <scala.main.version>2.10</scala.main.version>
     <scala.version>${scala.main.version}.2</scala.version>
 
+    <dropwizard.version>0.6.2</dropwizard.version>
     <javassist.version>3.18.0-GA</javassist.version>
     <jetty.version>8.1.11.v20130520</jetty.version>
     <logback.version>1.0.13</logback.version>
@@ -20,7 +21,22 @@
     <scalatra.version>2.2.1</scalatra.version>
   </properties>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <artifactId>logback-core</artifactId>
+        <groupId>ch.qos.logback</groupId>
+        <version>${logback.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <dependencies>
+    <dependency>
+      <artifactId>dropwizard-core</artifactId>
+      <groupId>com.yammer.dropwizard</groupId>
+      <version>${dropwizard.version}</version>
+    </dependency>
     <dependency>
       <artifactId>javassist</artifactId>
       <groupId>org.javassist</groupId>
