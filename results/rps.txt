@@ -1,3 +1,6 @@
+dropwizard1.txt:Requests per second:    107.70 [#/sec] (mean)
+dropwizard2.txt:Requests per second:    164.46 [#/sec] (mean)
+dropwizard3.txt:Requests per second:    167.75 [#/sec] (mean)
 jetty1.txt:Requests per second:    169.98 [#/sec] (mean)
 jetty2.txt:Requests per second:    222.93 [#/sec] (mean)
 jetty3.txt:Requests per second:    223.20 [#/sec] (mean)
